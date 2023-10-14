@@ -1,0 +1,54 @@
+//PRN: 22070123099
+//NAME: SANUSHA MENON
+// EXPERIMENT-5
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    float a, b, answer;
+    int choice;
+    cout<<"Enter number-1: ";
+    cin>>a;
+    cout<<"Enter number-2: ";
+    cin>>b;
+    cout<<"1. Add"<<endl<<"2. Sub"<<endl<<"3. Mult"<<endl<<"4. Div"<<endl;
+    cout<<"Enter your choice: ";
+    cin>>choice;
+
+    switch(choice) {
+        case 1:
+        answer = a+b;
+        cout<<"Sum = "<<answer<<endl;
+        break;
+
+        case 2:
+        answer = a - b;
+        cout<<"Difference = "<<answer<<endl;
+        break;
+
+        case 3:
+        answer = a*b;
+        cout<<"Product = "<<answer<<endl;
+        break;
+
+        case 4:
+        answer = a/b;
+        cout<<"Quotient = "<<answer<<endl;
+        break;
+
+        default:
+        cout<<"Wrong Input";
+    }
+
+/*Output
+Enter number-1: 2
+Enter number-2: 50
+1. Add
+2. Sub
+3. Mult
+4. Div
+Enter your choice: 1
+Sum = 52 */
+
+}
